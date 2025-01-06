@@ -22,6 +22,6 @@ function calculate() {
         isSolution = true;
     } catch (error) {
         display.value = "Error";
-        isSolution = false;
+        isSolution = true;
     }
 }
